@@ -287,7 +287,6 @@ Chaque Bot :
 - **Domaine** : éducation, médico-social, accompagnement
 
 Licence :  
-> À préciser (ex. licence libre + Charte Scala 5 + clause Human Respect).  
 > Principe : *open source disponible, non décomposable dans son cœur éthique, dérivations possibles avec respect des balises Σ, ∂soft, Θ, ℵ, T⊂.*
 
 ---
