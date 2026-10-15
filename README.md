@@ -286,8 +286,14 @@ Chaque Bot :
 - **Statut** : *Core gelé – extensions en évolution*  
 - **Domaine** : éducation, médico-social, accompagnement
 
-Licence :  
+**Licence non formalisée** : aucune licence formalisée n’est actuellement fournie dans ce dépôt ; aucun fichier `LICENSE` n’est présent.
+
+**Intention philosophique (formulation d’origine)** :  
 > Principe : *open source disponible, non décomposable dans son cœur éthique, dérivations possibles avec respect des balises Σ, ∂soft, Θ, ℵ, T⊂.*
+
+Cette formulation exprime une intention d’ouverture et de préservation du cœur éthique. Elle ne définit pas un régime explicite et complet de droits de modification (du cœur ou par extensions), de redistribution ou de commercialisation.
+
+La présente clarification n’accorde aucune permission supplémentaire et n’ajoute aucune interdiction. Toute décision sur la formalisation de ces droits reste réservée à **H (responsable humain du projet)**, sans préjuger des droits résultant de la loi ou des conditions de GitHub.
 
 ---
 
