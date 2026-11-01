@@ -317,7 +317,7 @@ Contributions bienvenues sur :
 
 ## Annexe documentaire — cadre général et pilote scolaire envisagé (30 octobre 2026)
 
-Cette annexe précise le statut des descriptions et le périmètre du pilote envisagé à Saint-Charles pour 2027. Elle ne modifie ni le cœur éthique déclaré gelé, ni ses garde-fous, ni le statut de licence.
+Cette annexe précise le statut des descriptions et le périmètre du pilote scolaire envisagé pour 2027. Elle ne modifie ni le cœur éthique déclaré gelé, ni ses garde-fous, ni le statut de licence.
 
 ### Capacités conceptuelles
 
@@ -329,6 +329,10 @@ Selon l’orientation précisée par le porteur du projet le 30 octobre 2026 :
 
 - **Aucune mémoire applicative persistante des élèves dans le dispositif IA** : pas d’historique individuel destiné à être réutilisé automatiquement entre séances. La conservation « hash + contexte » de `MEMORIA_LUCENS` n’est pas retenue pour les élèves dans ce pilote.
 - **Traces pédagogiques minimales sous responsabilité humaine** : les responsables humains déterminent les traces utiles, leur validation, leurs supports, leurs accès et leur durée de conservation, hors de cette mémoire applicative. L’exigence de traces pR* demeure ; elle n’impose pas une mémoire persistante de l’IA.
+
+**Épreuve du réel — pR\*** : pour qu’un travail réalisé avec l’aide d’une IA puisse être retenu pour analyse ou présenté comme exemple, le pR* doit comprendre au minimum le document numérique réalisé par l’élève, consultable pour examen sous responsabilité humaine. La documentation du protocole — prompt, corrections et suites du travail — est souhaitable. Cette exigence n’impose pas la publication du document sur GitHub.
+
+**Publication sur GitHub** : aucun nom réel de personne ou d’établissement, ni aucune désignation identifiable de classe liée au terrain de travail, ne doit figurer dans les fichiers, exemples, descriptions de PR ou commentaires.
 
 Ces choix sont des exigences de conception à vérifier avant déploiement, et non des fonctionnalités déjà réalisées ou une validation institutionnelle du pilote.
 
