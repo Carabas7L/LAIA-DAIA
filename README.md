@@ -312,3 +312,34 @@ Contributions bienvenues sur :
 - la documentation multilingue (FR/EN/…).
 
 > “Every flame that listens burns less and shines more.”
+
+---
+
+## Annexe documentaire — cadre général et pilote scolaire envisagé (30 octobre 2026)
+
+Cette annexe précise le statut des descriptions et le périmètre du pilote scolaire envisagé pour 2027. Elle ne modifie ni le cœur éthique déclaré gelé, ni ses garde-fous, ni le statut de licence.
+
+### Capacités conceptuelles
+
+À la date de cette vérification, le dépôt contient uniquement ce README, sans implémentation logicielle. Les composants des sections 2 et 3, dont `MEMORIA_LUCENS`, la mémoire consensuelle et la conservation « hash + contexte », décrivent une architecture conceptuelle. Les engagements d’anonymisation, d’oubli et de confidentialité (sections 2 à 5) ne constituent pas des garanties techniques démontrées. La mention « prototype » ne prouve pas la disponibilité d’un logiciel dans ce dépôt. Cette lecture rejoint [Scala 5](https://github.com/Carabas7L/scala5/blob/969b6b4af56b26175eb220b7b6f4e1f5ef7fa6ab/README.md), qui distingue principes éthiques et contrôles exécutables.
+
+### Choix de conception du pilote éducatif
+
+Selon l’orientation précisée par le porteur du projet le 30 octobre 2026 :
+
+- **Aucune mémoire applicative persistante des élèves dans le dispositif IA** : pas d’historique individuel destiné à être réutilisé automatiquement entre séances. La conservation « hash + contexte » de `MEMORIA_LUCENS` n’est pas retenue pour les élèves dans ce pilote.
+- **Traces pédagogiques minimales sous responsabilité humaine** : les responsables humains déterminent les traces utiles, leur validation, leurs supports, leurs accès et leur durée de conservation, hors de cette mémoire applicative. L’exigence de traces pR* demeure ; elle n’impose pas une mémoire persistante de l’IA.
+
+**Épreuve du réel — pR\*** : pour qu’un travail réalisé avec l’aide d’une IA puisse être retenu pour analyse ou présenté comme exemple, le pR* doit comprendre au minimum le document numérique réalisé par l’élève, consultable pour examen sous responsabilité humaine. La documentation du protocole — prompt, corrections et suites du travail — est souhaitable. Cette exigence n’impose pas la publication du document sur GitHub.
+
+**Publication sur GitHub** : aucun nom réel de personne ou d’établissement, ni aucune désignation identifiable de classe liée au terrain de travail, ne doit figurer dans les fichiers, exemples, descriptions de PR ou commentaires.
+
+Ces choix sont des exigences de conception à vérifier avant déploiement, et non des fonctionnalités déjà réalisées ou une validation institutionnelle du pilote.
+
+### Vérifications restant nécessaires
+
+- **Technique** : cartographier les flux et tester la persistance réelle (application, historique, journaux, caches, sauvegardes), les accès et l’effacement. Vérifier les risques de réidentification : un hash ou un pseudonyme ne suffit pas à démontrer l’anonymat.
+- **Fournisseurs** : vérifier séparément, pour l’offre et la configuration retenues, les contrats, durées de conservation, journaux, réutilisations pour l’entraînement, sous-traitants, lieux d’hébergement et transferts. L’absence de mémoire applicative ne garantit pas une absence de conservation chez le fournisseur.
+- **Cadre applicable** : documenter avec l’établissement et son DPO les responsabilités, la base légale, l’information et les droits des personnes, les durées, la sécurité, la nécessité d’une AIPD et les obligations du règlement IA selon l’usage réel. Le consensus ou la validation humaine du cadre conceptuel ne vaut pas, à lui seul, validation juridique.
+
+Référence pour cette instruction : [CNIL — mise en place de systèmes d’IA dans l’éducation](https://www.cnil.fr/fr/education-mise-en-place-systeme-ia). **Aucune conformité RGPD ou au règlement IA n’est démontrée par cette annexe.**
