@@ -1,3 +1,34 @@
+# LAIA-DAIA — guide de lecture du cœur v2.6
+
+**Statut :** Cadre conceptuel ; cœur éthique gelé ; pilote scolaire envisagé pour 2027.  
+**Repères documentaires :** 4 novembre 2026
+
+[Carte des dépôts — commencer ici](https://github.com/Carabas7L/steadyfire.ai/blob/main/docs/CARTE_DES_DEPOTS.md) · [Lexique cœur V4.2](https://github.com/Carabas7L/steadyfire.ai/blob/main/lexique/Lexique_coeur_v4.2.0.md) · [Concordance des signes](https://github.com/Carabas7L/steadyfire.ai/blob/main/docs/CONCORDANCE.md)
+
+## Objet
+
+Décrire un cadre de dialogue et d’accompagnement sous responsabilité humaine, associé à Scala 5.
+
+## Contenu disponible
+
+Ce dépôt contient uniquement le présent README : cœur v2.6, statut de licence et annexe documentaire. Aucun logiciel n’y est fourni.
+
+## Parcours de lecture
+
+Lire d’abord les [capacités conceptuelles](#capacités-conceptuelles) et les [choix de conception du pilote](#choix-de-conception-du-pilote-éducatif), puis le cœur conservé ci-dessous. La concordance explique notamment les sens locaux de κ et ρ.
+
+## Limites
+
+La description de composants ou de « prototypes » ne démontre pas leur disponibilité. Le pilote envisagé exclut la mémoire applicative persistante des élèves. Pour retenir un travail assisté par IA comme objet d’analyse ou exemple, l’annexe exige au minimum le document numérique réalisé par l’élève, consultable sous responsabilité humaine ; la documentation du protocole reste souhaitable. Cette exigence n’impose pas la publication de travaux d’élèves. Aucune conformité technique ou réglementaire n’est démontrée.
+
+## Licence et provenance
+
+Le dépôt ne fournit pas de licence formalisée ; voir la section « Statut et licence » du texte conservé. Ce guide est ajouté hors du cœur gelé. Il ne modifie ni ce cœur, ni l’annexe, ni les droits de réutilisation.
+
+---
+
+## Texte de référence conservé
+
 # LAIA-DAIA
 LAIA DAIA est Langage Augmenté IA et Dialogue Augmenté IA selon Mother Equation Scala 5:  Σ(∂, ψ)Θ → Φ → Φ⁺ → ∞ 
 
